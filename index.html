@@ -12,14 +12,14 @@
             background-color: #f9f9f9; /* light gray */
             margin: 0;
             padding: 0;
-            height: 750px;
+            height: auto;
             width: 600px;
             max-width: 100%;
             max-height: 100%;
         }
         .container {
             width: 80%;
-            margin: 40px auto;
+            margin: 20px auto;
             background-color: #fff; /* white */
             padding: 20px;
             border-radius: 10px;
@@ -36,16 +36,13 @@
         }
         .flag-container {
             width: 50%;
-            height: 200px;
             margin: 20px auto;
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: #fff; /* white */
-            border: 1px solid #ddd; /* light gray */
             overflow: hidden;
         }
         .flag {
@@ -97,9 +94,9 @@
             justify-content: center;
         }
         .option {
-            width: 45%;
+            width: 35%;
             height: 50px;
-            font-size: 16px;
+            font-size: 14px;
             margin: 10px;
             background-color: #4CAF50; /* green */
             color: #fff;
@@ -201,7 +198,6 @@
     <div class="game-page" id="game-page">
         <div class="container">
             <div class="header">Guess the Flag</div>
-            <p class="instructions">Guess the country of the flag below. You have to score higher than 80% to win.</p>
             <div class="flag-container">
                 <img class="flag" id="flag" src="" alt="Flag" style="border: none;">
                 <div class="flag-loading">
